@@ -1,0 +1,78 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: url(../img/фото\ 1.png) center center no-repeat;
+    background-size: cover;
+    min-height: 802px;
+}
+.container-navigation{
+    display: flex;
+    gap: 120px;
+}
+.block-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; 
+}
+.button-header, .button-header-main{
+    text-decoration: none;
+    color: #E3E3E3;
+}
+.logo-header, .button-header, .button-header-main{
+    margin-top: 34px;
+}
+.button-header-main{
+    color: #A400DE;
+    margin-left: 300px;
+}
+.create-account{
+    color: #fff;
+    text-decoration: none;
+}
+.block-button-create-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 190px;
+    height: 25px;
+    margin-right: 30px;
+    background: #A400DE;
+    border: solid #A400DE 1px;
+    border-radius: 50px;
+}
+.block-button-REGISTRATION{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 190px;
+    height: 25px;
+    
+}
+.REGISTRATION{
+    color: #fff;
+    text-decoration: none;
+}
+.section-1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.first-image-section-1{
+    
+}
+.two-images-group{
+    margin-left: 54px;
+    margin-top: 540px;
+}
+.container-two-buttons{
+    display: flex;
+    margin-right: 184px;
+    margin-top: 540px;
+}
+.second-image-section-1{
+    margin-left: 32px;
+}
