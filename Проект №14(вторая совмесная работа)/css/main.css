@@ -3,11 +3,18 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+.main-problem-this-project{
+    
 }
 .header{
     background: url(../img/фото\ 1.png) center center no-repeat;
     background-size: cover;
     min-height: 802px;
+}
+.container-header{
+    
 }
 .container-navigation{
     display: flex;
@@ -60,6 +67,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    
 }
 .first-image-section-1{
     
@@ -75,4 +83,98 @@ body{
 }
 .second-image-section-1{
     margin-left: 32px;
+}
+.section-2{
+    background: #0E0E0E;
+}
+.problem-img{
+    position: absolute;
+    background: url(../img/Group\ 2.png) center center no-repeat;
+    background-position-x: 97%;
+    min-height: 50%;
+    min-width: 100%;
+    top: 650px;
+}
+.container-section-2{
+    
+}
+.h3-tittle-section-2{
+    color: #74009D;
+    
+}
+.block-h3-tittle-section-2{
+    
+}
+.block-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block-game-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 91px;
+    
+}
+.first-part, .first-part-block-2, .first-part-block-3, .first-part-block-4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 160px;
+    width: 368px;
+    height: 368px;
+}
+.first-part{
+    background: url(../img/Rectangle\ 3.png) no-repeat;
+    background-size: cover;
+}
+.first-part-block-2{
+    background: url(../img/Rectangle\ 5.png) no-repeat;
+    background-size: cover;
+}
+.first-part-block-3{
+    background: url(../img/Rectangle\ 7.png) no-repeat;
+    background-size: cover;
+}
+.first-part-block-4{
+    background: url(../img/Rectangle\ 9.png) no-repeat;
+    background-size: cover;
+}
+.second-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 248px;
+    height: 35px;
+    background: linear-gradient(90deg, #A400DE 0%, #74009D 100%);
+    border-radius: 50px;
+}
+.button-about-the-game{
+    color: #fff;
+    text-decoration: none;
+}
+.h5-title-section-2, .h5-title-block-3-section-2{
+    margin-top: -20px;
+    color: #fff;
+}
+.h5-title-block-3-section-2{
+    margin-left: 15px; 
+}
+.h4-tittle-section-2, .h4-tittle-block-3-section-2{
+    color: #A400DE;
+    margin-top: -20px;
+}
+.h4-tittle-block-3-section-2{
+    margin-right: 15px;
+}
+.second-background-for-second-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1A1A1A;
+    border-radius: 0px 0px 10px 10px;
+    width: 368px;
+    height: 87px;
 }
