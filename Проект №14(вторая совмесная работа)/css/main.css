@@ -1,10 +1,10 @@
 body{
     font-size: 18px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
-    
-}
+    background: #0E0E0E;
+    color: #fff;
+} 
 .main-problem-this-project{
     
 }
@@ -84,9 +84,6 @@ body{
 .second-image-section-1{
     margin-left: 32px;
 }
-.section-2{
-    background: #0E0E0E;
-}
 .problem-img{
     position: absolute;
     background: url(../img/Group\ 2.png) center center no-repeat;
@@ -103,20 +100,55 @@ body{
     
 }
 .block-h3-tittle-section-2{
-    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-right: 230px;
+    margin-bottom: 20px;
+    width: 148px;
+    height: 22px;
+    margin-top: 50px;
 }
 .block-section-2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 300px;
+}
+.group-blocks-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 .block-game-section-2{
+    margin-top: 85px;
+    
+}
+.block-2-game-section-2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.block-game-section-2, .block-1-game-section-2{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     margin-bottom: 91px;
     
+}
+.block-1-game-section-2{
+    margin-left: 250px;
+    
+}
+.group-blocks-3-4-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block-3-game-section-2{
+    margin-right: 60px;   
 }
 .first-part, .first-part-block-2, .first-part-block-3, .first-part-block-4{
     display: flex;
@@ -125,6 +157,7 @@ body{
     gap: 160px;
     width: 368px;
     height: 368px;
+    margin-bottom: 12px; 
 }
 .first-part{
     background: url(../img/Rectangle\ 3.png) no-repeat;
@@ -156,15 +189,15 @@ body{
     text-decoration: none;
 }
 .h5-title-section-2, .h5-title-block-3-section-2{
-    margin-top: -20px;
+    
     color: #fff;
 }
 .h5-title-block-3-section-2{
-    margin-left: 15px; 
+     
 }
 .h4-tittle-section-2, .h4-tittle-block-3-section-2{
     color: #A400DE;
-    margin-top: -20px;
+    
 }
 .h4-tittle-block-3-section-2{
     margin-right: 15px;
@@ -177,4 +210,72 @@ body{
     border-radius: 0px 0px 10px 10px;
     width: 368px;
     height: 87px;
+}
+.block-h3-tittle-2-section-2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.h3-tittle-section-2{
+
+}
+.block-4-game-section-2{
+    margin-top: 80px;
+}
+.block-1-game-section-3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 755px;
+    height: 425px;
+    background: url(../img/84CvByk739yh2zzP6bZZm8\ 1.png) no-repeat;
+    box-shadow: inset 0px 0px 18px 3px #000; 
+    background-size: cover;
+}
+.block-section-3{
+    background: url(../img/Rectangle\ 30.png);
+    background-size: cover;
+}
+.block-stars-section-3{
+    display: flex;
+    gap: 50px;
+    
+}
+.block-h5-tittle-section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.h3-tittle-section-3{
+    display: flex;
+    margin: 0;
+    font-size: 32px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.h5-tittle-section-3{
+    color: #A400DE;
+    font-size: 18px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.part-block-section-3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 31px 0px 34px 0px;
+}
+.part-of-block-section-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 280px;
 }
