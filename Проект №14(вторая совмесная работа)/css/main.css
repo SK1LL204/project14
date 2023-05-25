@@ -232,7 +232,6 @@ body{
     width: 755px;
     height: 425px;
     background: url(../img/84CvByk739yh2zzP6bZZm8\ 1.png) no-repeat;
-    box-shadow: inset 0px 0px 18px 3px #000; 
     background-size: cover;
 }
 .block-section-3{
@@ -266,7 +265,7 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.part-block-section-3{
+.part-block-section-3, .part-block-game-2-section-3{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -277,5 +276,46 @@ body{
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
-    margin-right: 280px;
+    margin-right: 210px;
+}
+.block-button-pay-section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95px;
+    height: 41px;
+    border-radius: 50px;
+    background: rgba(164, 0, 222, 0.7);
+}
+.button-pay-section-3{
+    color: #fff;
+    text-decoration: none;
+}
+.block-2-game-section-3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 755px;
+    height: 425px;
+    background: url(../img/84CvByk739yh2zzP6bZZm8\ 2.png) no-repeat;
+    background-size: cover;
+}
+.h6-tittles-group-section-3{
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+.h6-tittle, .h6-tittle-second{
+    font-size: 20px;
+}
+.h6-tittle{
+    color: #898989;
+}
+.part-of-block-game-2-section-3{
+    margin-right: 100px;
+    
+    
+}
+.part-block-game-2-section-3{
+
 }
